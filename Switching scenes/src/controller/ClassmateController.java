@@ -18,7 +18,7 @@ public class ClassmateController {
     
     private Stage stage;
     private Scene scene;
-    private Parent root; 
+    private Parent root;
 
     @FXML
     Button btn1, btn2, btn3, btn4, btn5;
@@ -30,7 +30,7 @@ public class ClassmateController {
     Terrence terrence = new Terrence();
 
     public void switchToScene1(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("scene1.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/view/scene1.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
@@ -38,8 +38,8 @@ public class ClassmateController {
 
     } 
 
-    public void switchToScene2(ActionEvent event) throws IOException{
-        Parent root = FXMLLoader.load(getClass().getResource("scene2.fxml"));
+    public void switchToScene2(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("/view/scene2.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
