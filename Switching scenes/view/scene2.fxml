@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClassmateController">
+   <children>
+      <ImageView fitHeight="104.0" fitWidth="110.0" layoutX="392.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Arjay.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn1" layoutX="90.0" layoutY="267.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: blue;" text="Czarina" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="170.0" fitWidth="192.0" layoutX="662.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Lance.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn2" layoutX="719.0" layoutY="455.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: blue;" text="Justin" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="712.0" layoutY="249.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: Blue;" text="Lance" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="397.0" layoutY="444.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: Blue;" text="Arjay" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="76.0" layoutY="463.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: blue;" text="Terrence" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="170.0" fitWidth="192.0" layoutX="42.0" layoutY="89.0">
+         <image>
+            <Image url="@../images/Czarina.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="152.0" layoutX="682.0" layoutY="318.0">
+         <image>
+            <Image url="@../images/Justin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="124.0" layoutX="83.0" layoutY="329.0">
+         <image>
+            <Image url="@../images/Terrence.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="86.0" layoutX="397.0" layoutY="70.0">
+         <image>
+            <Image url="@../../../../../Users/Eddz/Downloads/Pictures/National_University_seal.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchToScene1" style="-fx-background-color: blue;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="704.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: blue;" text="Checkout" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
