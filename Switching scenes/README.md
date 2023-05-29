@@ -1,3 +1,2 @@
-program could not switch from scene1 to scene2 when button is clicked.
+Changed scene layout + base design for the intro pane
 
-^^ fixed ^^
